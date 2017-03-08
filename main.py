@@ -19,9 +19,7 @@ dataset = pandas.read_csv(url, names=names)
 # Split-out validation dataset
 array = dataset.values
 X = array[:, 1:9]
-print('X : ' + str(X))
 Y = array[:, 10]
-print('Y : ' + str(Y))
 validation_size = 0.10
 seed = 7
 X_train, X_validation, Y_train, Y_validation = model_selection.train_test_split(X, Y, test_size=validation_size, random_state=seed)
