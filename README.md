@@ -11,3 +11,6 @@ Glass Identification Data Set
 Abstract: From USA Forensic Science Service; 6 types of glass; defined in terms of their oxide content (i.e. Na, Fe, K, etc)
 http://archive.ics.uci.edu/ml/datasets/Glass+Identification
 
+## Installation
+`pip3 install -r requirements.txt`
+`python3 main.py`
